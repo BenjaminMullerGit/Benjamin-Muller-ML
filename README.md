@@ -1,3 +1,2 @@
-Benjamin-Muller-ML
-Is it writing something
-{{ page.title }}
+### overview
+Short web page in order to present my previous and current projects
