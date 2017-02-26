@@ -16,7 +16,7 @@
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>  Here is a quick web page presenting my previous and current projects <!-- {{ site.description | default: site.github.project_tagline }}    -->   </p>
-        <p> I'm a master student in Data Science at University Paris Saclay (X, Telecom and ENSAE), currently focusing my work on Deep Learning and Natural Language processing.</p>
+        <p> I'm a master student in Data Science at Paris-Saclay University (X, Telecom and ENSAE), currently focusing my work on Deep Learning and its application to Natural Language processing.</p>
         {% if site.github.is_user_page %}
           <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
@@ -30,9 +30,10 @@
         {% endif %}
       </header>
       <section>
-      {{ content }}
-        
-  
+      <!--{{ content }}-->
+        <h1 style="color: #5e9ca0;">You can edit <span style="color: #2b2301;">this demo</span> text!</h1>
+        <h2 style="color: #2e6c80;">How to use the editor:</h2>
+        <p>Paste your documents in the visual editor on the left or your HTML code in the source editor in the right. <br />Edit any of the two areas and see the other changing in real time.&nbsp;</p>  
       </section>
       <footer>
         {% if site.github.is_project_page %}
